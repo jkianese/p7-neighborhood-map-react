@@ -88,6 +88,7 @@ class NeighborhoodMap extends Component {
 }
 
 // From Elharony WT video #2
+
 function loadScript(source) {
   var index = window.document.getElementsByTagName("script")[0]
   var script = window.document.createElement("script")
