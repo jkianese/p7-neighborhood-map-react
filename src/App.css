@@ -26,3 +26,32 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+#map {
+  margin: 0;  /* from Edoh Walkthrough */
+  width: 100%; /* 85% in Edoh Walkthrough */
+  height: 100vh;
+}
+
+html, body {
+  font-family: Arial, sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+/* Code below from Edoh Walkthrough - trying using my own
+  from restaurant reviews */ 
+@media screen and (max-width: 500px) { 
+  .heading {
+    font-size: medium;
+    padding: 1em;
+  }
+
+  .menu {
+    top: 0!important;
+  }
+}
+
+li.focus {
+  background-color: #9f8ef9;
+}
