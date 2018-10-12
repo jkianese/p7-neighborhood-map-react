@@ -18,7 +18,7 @@ export class App extends Component {
 }
 
 export default GoogleApiWrapper({
-  apiKey: 'AIzaSyBj5AzHYC1kUPRnvaT6G6zsAONHSpKmoqQ',
+  apiKey: '',
   Async: true,
   Defer: true 
 })(App)
